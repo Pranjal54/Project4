@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./Assets4/purple-city-night-sky-illsutration_718506-9.avif);
+    background-repeat: no-repeat;
+    background-size:cover; 
+     background-attachment: fixed;
+     color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: purple;
+    border-radius: 2px solid white;
+    font-weight: 600
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    
+   background-color: black;
+   color: white;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    list-style: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+    
+}
+
+
+
+nav ul li{
+    margin-right: 100px;
+    font-weight: 600;
+    font-size: 15px;
+    gap: 0;
+    align-items: center;
+    
+}
+
+nav li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+nav ul button{
+    display: flex;
+    /* margin-right: 3000px; */
+    /* margin-left: 100px; */
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    height: 35px;
+    width: 150px; 
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    /* justify-items: right; */
+    line-height: 35px;
+    /* float: right;  */
+    position:relative;
+    cursor: pointer;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 150px;
+}
+
+.div1{
+    
+  font-style: normal;
+  font-weight: 400;
+  font-size: 104px;
+  line-height: 114px;
+}
+
+.div2{
+    font-size: 25px;
+}
+
+main div button{
+    display: flex;
+    /* margin-right: 3000px; */
+    /* margin-left: 100px; */
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    height: 35px;
+    width: 250px; 
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    /* justify-items: right; */
+    line-height: 35px;
+    /* float: right;  */
+    font-style: normal;
+    
+    cursor: pointer;
+}
+
+
+
